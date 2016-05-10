@@ -1,0 +1,16 @@
+PODS:
+  - FDCountDownView (0.1.0)
+
+DEPENDENCIES:
+  - FDCountDownView (from `../`)
+
+EXTERNAL SOURCES:
+  FDCountDownView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FDCountDownView: 9155fcb699e098989f00a3479cdd46331eb007fa
+
+PODFILE CHECKSUM: 09d41b9ce5bbc2b3525bb1c16dfb62b60cf7a603
+
+COCOAPODS: 1.0.0.rc.2

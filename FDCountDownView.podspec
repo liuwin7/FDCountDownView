@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "FDCountDownView"
   s.version          = "0.1.0"
-  s.summary          = "A short description of FDCountDownView."
+  s.summary          = "A View to display a circle, using in advertisement view to jump the waiting time."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+In many apps, An advertisement view will be present when the apps was launched. And, a common practice is that adding a "Jump" button to overleap the waiting time. The FDCountDownView will be a good choice for the "Jump" button.
+DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/FDCountDownView"
+  s.homepage         = "https://github.com/liuwin7/FDCountDownView"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "liuwin7" => "liuwin7@163.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/FDCountDownView.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/liuwin7/FDCountDownView.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

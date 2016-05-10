@@ -1,0 +1,6 @@
+framework module FDCountDownView {
+  umbrella header "FDCountDownView-umbrella.h"
+
+  export *
+  module * { export * }
+}
