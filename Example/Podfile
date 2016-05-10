@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FDCountDownView_Example', :exclusive => true do
+  pod 'FDCountDownView', :path => '../'
+end
+
+target 'FDCountDownView_Tests', :exclusive => true do
+  pod 'FDCountDownView', :path => '../'
+
+  
+end
