@@ -9,7 +9,11 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Show How
+![show how](https://github.com/liuwin7/FDCountDownView/blob/master/show-how.gif)
+
 ## Requirements
+iOS 8.0+
 
 ## Installation
 
