@@ -25,10 +25,19 @@
                                     <segue destination="vXZ-lx-hvc" kind="presentation" identifier="presentAdvertisementSegueID" id="A5b-CD-1mb"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MAF-7X-TaY">
+                                <rect key="frame" x="217" y="110" width="166" height="30"/>
+                                <state key="normal" title="Show Login Button View"/>
+                                <connections>
+                                    <segue destination="Ay5-X0-nIc" kind="show" identifier="showLoginButtonViewController" id="bsW-Ma-M2M"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="MAF-7X-TaY" firstAttribute="centerX" secondItem="GEr-ed-GXn" secondAttribute="centerX" id="Du0-FP-Tdf"/>
                             <constraint firstItem="GEr-ed-GXn" firstAttribute="centerX" secondItem="neH-rQ-hTm" secondAttribute="centerX" id="Ee0-ps-uTM"/>
+                            <constraint firstItem="MAF-7X-TaY" firstAttribute="top" secondItem="GEr-ed-GXn" secondAttribute="bottom" constant="8" symbolic="YES" id="G3H-qL-5GR"/>
                             <constraint firstItem="GEr-ed-GXn" firstAttribute="top" secondItem="aLj-cE-U89" secondAttribute="bottom" constant="8" symbolic="YES" id="GJE-Rb-drA"/>
                         </constraints>
                     </view>
@@ -37,6 +46,57 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jIu-1p-bV3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="631" y="456"/>
+        </scene>
+        <!--Show Login Button View Controller-->
+        <scene sceneID="XI6-k0-svw">
+            <objects>
+                <viewController id="Ay5-X0-nIc" customClass="ShowLoginButtonViewController" customModule="FDCountDownView_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4cU-Zm-Dxi"/>
+                        <viewControllerLayoutGuide type="bottom" id="mxU-tq-oQa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DXy-av-d2a">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lLw-FE-tWn">
+                                <rect key="frame" x="246" y="72" width="109" height="30"/>
+                                <state key="normal" title="Simulate Failure"/>
+                                <connections>
+                                    <action selector="failureAction:" destination="Ay5-X0-nIc" eventType="touchUpInside" id="OWi-3j-cFR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ftd-q7-g3z">
+                                <rect key="frame" x="240" y="110" width="121" height="30"/>
+                                <state key="normal" title="Simulate Success"/>
+                                <connections>
+                                    <action selector="successAction:" destination="Ay5-X0-nIc" eventType="touchUpInside" id="caK-Id-kPJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QxB-Ys-65i">
+                                <rect key="frame" x="281" y="148" width="39" height="30"/>
+                                <state key="normal" title="Reset"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lLw-FE-tWn" firstAttribute="centerX" secondItem="Ftd-q7-g3z" secondAttribute="centerX" id="KNs-9U-z3n"/>
+                            <constraint firstItem="QxB-Ys-65i" firstAttribute="centerX" secondItem="Ftd-q7-g3z" secondAttribute="centerX" id="aYz-fK-lrj"/>
+                            <constraint firstItem="lLw-FE-tWn" firstAttribute="centerX" secondItem="DXy-av-d2a" secondAttribute="centerX" id="c5p-bw-IhE"/>
+                            <constraint firstItem="lLw-FE-tWn" firstAttribute="top" secondItem="4cU-Zm-Dxi" secondAttribute="bottom" constant="8" symbolic="YES" id="cM9-a0-Jqd"/>
+                            <constraint firstItem="QxB-Ys-65i" firstAttribute="top" secondItem="Ftd-q7-g3z" secondAttribute="bottom" constant="8" symbolic="YES" id="doB-t8-LoH"/>
+                            <constraint firstItem="Ftd-q7-g3z" firstAttribute="top" secondItem="lLw-FE-tWn" secondAttribute="bottom" constant="8" symbolic="YES" id="rjt-DS-a9N"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="QxB-Ys-65i"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nhz-mc-dBe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1290" y="1255"/>
         </scene>
         <!--Advertisement View Controller-->
         <scene sceneID="ufC-wZ-h7g">

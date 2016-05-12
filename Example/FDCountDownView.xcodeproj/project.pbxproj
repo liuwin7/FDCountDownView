@@ -17,6 +17,7 @@
 		A47500EFE5FD9874C600D708 /* Pods_FDCountDownView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E852443B1C8ABABC961BB38C /* Pods_FDCountDownView_Example.framework */; };
 		A911D18A1CE1CFCD0047ED30 /* adImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A911D1891CE1CFCD0047ED30 /* adImage.jpg */; };
 		A911D18E1CE1D0C40047ED30 /* AdvertisementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911D18D1CE1D0C40047ED30 /* AdvertisementViewController.swift */; };
+		A92D2D9A1CE4679200244A80 /* ShowLoginButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92D2D991CE4679200244A80 /* ShowLoginButtonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		A7A9FDEABE9B16D7B46FDDD8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A911D1891CE1CFCD0047ED30 /* adImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = adImage.jpg; sourceTree = "<group>"; };
 		A911D18D1CE1D0C40047ED30 /* AdvertisementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvertisementViewController.swift; sourceTree = "<group>"; };
+		A92D2D991CE4679200244A80 /* ShowLoginButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowLoginButtonViewController.swift; sourceTree = "<group>"; };
 		BFABA53E4C492CC5CDFA90BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D25F1D34453751B798D34F42 /* Pods_FDCountDownView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FDCountDownView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E852443B1C8ABABC961BB38C /* Pods_FDCountDownView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FDCountDownView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +102,7 @@
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				A911D18D1CE1D0C40047ED30 /* AdvertisementViewController.swift */,
+				A92D2D991CE4679200244A80 /* ShowLoginButtonViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -369,6 +372,7 @@
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				A911D18E1CE1D0C40047ED30 /* AdvertisementViewController.swift in Sources */,
+				A92D2D9A1CE4679200244A80 /* ShowLoginButtonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

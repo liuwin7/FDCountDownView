@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '36FB0499F6EB6906EEB8A6C20FEFE0F0'
+               BlueprintIdentifier = '30B7FD53F557F8C78F52368FB6897E10'
                BlueprintName = 'FDCountDownView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'FDCountDownView.framework'>

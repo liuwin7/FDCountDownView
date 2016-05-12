@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		045A42B83FF6356E306B303E791A564D /* FDCountDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C009DCCBF959E97A55B84C75BEF288 /* FDCountDownView.swift */; };
 		1220AB0ED2A4B350E64143927B5DA1F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		2308915BE9D0278ABCCFA24426D02B48 /* Pods-FDCountDownView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B5CB6BA166C609BC185D2DD5127D1C1 /* Pods-FDCountDownView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		573C562F30969C5E6C62359AE21EF605 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		68BA4F151D073195CD272584898D70A5 /* Pods-FDCountDownView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D3C4FF462D325A59729C7BAE4510841 /* Pods-FDCountDownView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		886CD648542261883027E87B2BF3F3A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		88BFED200130DF3B0946C50E4903ABE4 /* FDCountDownView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8D2D9D04BFD08E0A4581381072081E /* FDCountDownView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		927B93DBD0AEB5FEC9498331086A6C12 /* FDLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28BAC303C2CAFBDD0A76FFFEC852E7C /* FDLoginView.swift */; };
+		A0B3F8BBCCFBE2DFECA0A27B94B41688 /* FDCountDownView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FE5B681A88493F9590ACACBC1DA461 /* FDCountDownView-dummy.m */; };
 		B0B5ACE99B259811ED285BC78ECE1853 /* Pods-FDCountDownView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B363DAAFD83EB4E0CB6F8A07831C5F39 /* Pods-FDCountDownView_Example-dummy.m */; };
-		B251727276241AE19B404FDB05C62296 /* FDCountDownView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8D2D9D04BFD08E0A4581381072081E /* FDCountDownView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E01E5B7B3107BB6B4708AD91CB769B15 /* FDCountDownView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FE5B681A88493F9590ACACBC1DA461 /* FDCountDownView-dummy.m */; };
 		E2086312CB823684EFDF33910A4E3B26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F3382B201D83F9A5ADE759B1E917DD54 /* FDCountDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C902EDD8E06BADF81B861AF55B5C32E5 /* FDCountDownView.swift */; };
 		F878AC020CFB1FCCD7126459A71E13D0 /* Pods-FDCountDownView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C788BBAD0B3B9FBEAC182D9BB3133 /* Pods-FDCountDownView_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -24,14 +25,14 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 36FB0499F6EB6906EEB8A6C20FEFE0F0;
+			remoteGlobalIDString = 30B7FD53F557F8C78F52368FB6897E10;
 			remoteInfo = FDCountDownView;
 		};
 		96697ED2F57D58E8C37D9E8C3B3F3414 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 36FB0499F6EB6906EEB8A6C20FEFE0F0;
+			remoteGlobalIDString = 30B7FD53F557F8C78F52368FB6897E10;
 			remoteInfo = FDCountDownView;
 		};
 /* End PBXContainerItemProxy section */
@@ -63,9 +64,10 @@
 		B80F73A8ADE4A165CB9F376F1E4896C7 /* Pods-FDCountDownView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FDCountDownView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C195B8A0A8F46187B83DDE1C666BE601 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C313394A2AFBE4694C322BBB2400F637 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C902EDD8E06BADF81B861AF55B5C32E5 /* FDCountDownView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FDCountDownView.swift; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D7C009DCCBF959E97A55B84C75BEF288 /* FDCountDownView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FDCountDownView.swift; sourceTree = "<group>"; };
 		DB8D2D9D04BFD08E0A4581381072081E /* FDCountDownView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FDCountDownView-umbrella.h"; sourceTree = "<group>"; };
+		E28BAC303C2CAFBDD0A76FFFEC852E7C /* FDLoginView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FDLoginView.swift; sourceTree = "<group>"; };
 		E40E69CFB78BB577AB73EEBDB54AFE3D /* FDCountDownView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FDCountDownView-prefix.pch"; sourceTree = "<group>"; };
 		F226E5611F79BDAD8A7F7A19136ACAF7 /* Pods_FDCountDownView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FDCountDownView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6809133A79F479F174FF3D63B99CA28 /* Pods-FDCountDownView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FDCountDownView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -80,11 +82,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		822CAD6E3A950F748383BEBB7AE793FC /* Frameworks */ = {
+		D15B480DDB82AA0557009E48D83A5EA7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				886CD648542261883027E87B2BF3F3A1 /* Foundation.framework in Frameworks */,
+				573C562F30969C5E6C62359AE21EF605 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +119,14 @@
 			path = "Target Support Files/Pods-FDCountDownView_Example";
 			sourceTree = "<group>";
 		};
+		28F2D761446AB9355A88B434CA353B4D /* FDCountDownView */ = {
+			isa = PBXGroup;
+			children = (
+				A766ADD4BE07AD602709AF6D7BBFBE79 /* Classes */,
+			);
+			path = FDCountDownView;
+			sourceTree = "<group>";
+		};
 		29E6C82B06CD2BCF893E345AE5BB82BA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,14 +147,6 @@
 				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		44DB3F349DE96184A4F569197B6EF741 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				D7C009DCCBF959E97A55B84C75BEF288 /* FDCountDownView.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		6DD26C060BF21D18A634A594F13DFDBC /* Products */ = {
@@ -176,14 +178,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		8049C761977844934A46EE6AAE7733CA /* FDCountDownView */ = {
-			isa = PBXGroup;
-			children = (
-				44DB3F349DE96184A4F569197B6EF741 /* Classes */,
-			);
-			path = FDCountDownView;
-			sourceTree = "<group>";
-		};
 		9F340FE6DA67DD514B4150D50405775F /* Pods-FDCountDownView_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,10 +196,19 @@
 			path = "Target Support Files/Pods-FDCountDownView_Tests";
 			sourceTree = "<group>";
 		};
+		A766ADD4BE07AD602709AF6D7BBFBE79 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C902EDD8E06BADF81B861AF55B5C32E5 /* FDCountDownView.swift */,
+				E28BAC303C2CAFBDD0A76FFFEC852E7C /* FDLoginView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		BB18FDC6C44D0DA09FFAEA347997B2F9 /* FDCountDownView */ = {
 			isa = PBXGroup;
 			children = (
-				8049C761977844934A46EE6AAE7733CA /* FDCountDownView */,
+				28F2D761446AB9355A88B434CA353B4D /* FDCountDownView */,
 				29E6C82B06CD2BCF893E345AE5BB82BA /* Support Files */,
 			);
 			name = FDCountDownView;
@@ -232,19 +235,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5EB8607D7CCA8F5334EC70466738C671 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B251727276241AE19B404FDB05C62296 /* FDCountDownView-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		62CAAA6D3F4BFBCC3B994EBEEB5051E5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2308915BE9D0278ABCCFA24426D02B48 /* Pods-FDCountDownView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758288C350A17AC19383C5FF9FC8CAB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88BFED200130DF3B0946C50E4903ABE4 /* FDCountDownView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,13 +280,13 @@
 			productReference = A48B8B9821D13AD10A6CBEB0D9259E14 /* Pods_FDCountDownView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		36FB0499F6EB6906EEB8A6C20FEFE0F0 /* FDCountDownView */ = {
+		30B7FD53F557F8C78F52368FB6897E10 /* FDCountDownView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63AAA2BEF903D6A620F6B9D7CC7AD895 /* Build configuration list for PBXNativeTarget "FDCountDownView" */;
+			buildConfigurationList = D6C753D701998E62B016B02740CCD782 /* Build configuration list for PBXNativeTarget "FDCountDownView" */;
 			buildPhases = (
-				97D7FE17E93098E0E90FB2866CB1B681 /* Sources */,
-				822CAD6E3A950F748383BEBB7AE793FC /* Frameworks */,
-				5EB8607D7CCA8F5334EC70466738C671 /* Headers */,
+				A5D842D260903C825D4622CE4755BADB /* Sources */,
+				D15B480DDB82AA0557009E48D83A5EA7 /* Frameworks */,
+				758288C350A17AC19383C5FF9FC8CAB1 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -333,7 +336,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				36FB0499F6EB6906EEB8A6C20FEFE0F0 /* FDCountDownView */,
+				30B7FD53F557F8C78F52368FB6897E10 /* FDCountDownView */,
 				20E8A0DD17F83EF5F2BC8E7F896642BA /* Pods-FDCountDownView_Example */,
 				CD55CABBA7EB7FB780154BE9008045C5 /* Pods-FDCountDownView_Tests */,
 			);
@@ -349,12 +352,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97D7FE17E93098E0E90FB2866CB1B681 /* Sources */ = {
+		A5D842D260903C825D4622CE4755BADB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E01E5B7B3107BB6B4708AD91CB769B15 /* FDCountDownView-dummy.m in Sources */,
-				045A42B83FF6356E306B303E791A564D /* FDCountDownView.swift in Sources */,
+				A0B3F8BBCCFBE2DFECA0A27B94B41688 /* FDCountDownView-dummy.m in Sources */,
+				F3382B201D83F9A5ADE759B1E917DD54 /* FDCountDownView.swift in Sources */,
+				927B93DBD0AEB5FEC9498331086A6C12 /* FDLoginView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,13 +376,13 @@
 		2695F057932B97D06C3AF1C8038B0BA2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FDCountDownView;
-			target = 36FB0499F6EB6906EEB8A6C20FEFE0F0 /* FDCountDownView */;
+			target = 30B7FD53F557F8C78F52368FB6897E10 /* FDCountDownView */;
 			targetProxy = 96697ED2F57D58E8C37D9E8C3B3F3414 /* PBXContainerItemProxy */;
 		};
 		6C75077A0B84AF6E263024EEBC487EEA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FDCountDownView;
-			target = 36FB0499F6EB6906EEB8A6C20FEFE0F0 /* FDCountDownView */;
+			target = 30B7FD53F557F8C78F52368FB6897E10 /* FDCountDownView */;
 			targetProxy = 222571E3CDAF616F6B5D385950BD6D30 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -422,7 +426,7 @@
 			};
 			name = Release;
 		};
-		265D0F92FAA1F5222D7B267830EAA32F /* Debug */ = {
+		2A438E2361D903BA2EE01B1B1A0CE3FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5AFD88099E8F3BF94982B4EE9ACFC400 /* FDCountDownView.xcconfig */;
 			buildSettings = {
@@ -452,7 +456,7 @@
 			};
 			name = Debug;
 		};
-		43A9CBC45B96B1488B82EE7D2CD16F59 /* Release */ = {
+		4A789881DDEE54338BC646048C36506A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5AFD88099E8F3BF94982B4EE9ACFC400 /* FDCountDownView.xcconfig */;
 			buildSettings = {
@@ -678,20 +682,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63AAA2BEF903D6A620F6B9D7CC7AD895 /* Build configuration list for PBXNativeTarget "FDCountDownView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				265D0F92FAA1F5222D7B267830EAA32F /* Debug */,
-				43A9CBC45B96B1488B82EE7D2CD16F59 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		ACA2DA7445161C3CAF389D492D6672C6 /* Build configuration list for PBXNativeTarget "Pods-FDCountDownView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9B5DDB53563CC081D2A154325BA14D05 /* Debug */,
 				D6F95933C7636E3DB470716BABCAE8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6C753D701998E62B016B02740CCD782 /* Build configuration list for PBXNativeTarget "FDCountDownView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A438E2361D903BA2EE01B1B1A0CE3FF /* Debug */,
+				4A789881DDEE54338BC646048C36506A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
