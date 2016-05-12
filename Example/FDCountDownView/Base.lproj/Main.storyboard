@@ -63,35 +63,24 @@
                                 <rect key="frame" x="246" y="72" width="109" height="30"/>
                                 <state key="normal" title="Simulate Failure"/>
                                 <connections>
-                                    <action selector="failureAction:" destination="Ay5-X0-nIc" eventType="touchUpInside" id="OWi-3j-cFR"/>
+                                    <action selector="buttonAction:" destination="Ay5-X0-nIc" eventType="touchUpInside" id="SUN-Yi-meV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ftd-q7-g3z">
                                 <rect key="frame" x="240" y="110" width="121" height="30"/>
                                 <state key="normal" title="Simulate Success"/>
                                 <connections>
-                                    <action selector="successAction:" destination="Ay5-X0-nIc" eventType="touchUpInside" id="caK-Id-kPJ"/>
+                                    <action selector="buttonAction:" destination="Ay5-X0-nIc" eventType="touchUpInside" id="dv0-Gs-tfZ"/>
                                 </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QxB-Ys-65i">
-                                <rect key="frame" x="281" y="148" width="39" height="30"/>
-                                <state key="normal" title="Reset"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="lLw-FE-tWn" firstAttribute="centerX" secondItem="Ftd-q7-g3z" secondAttribute="centerX" id="KNs-9U-z3n"/>
-                            <constraint firstItem="QxB-Ys-65i" firstAttribute="centerX" secondItem="Ftd-q7-g3z" secondAttribute="centerX" id="aYz-fK-lrj"/>
                             <constraint firstItem="lLw-FE-tWn" firstAttribute="centerX" secondItem="DXy-av-d2a" secondAttribute="centerX" id="c5p-bw-IhE"/>
                             <constraint firstItem="lLw-FE-tWn" firstAttribute="top" secondItem="4cU-Zm-Dxi" secondAttribute="bottom" constant="8" symbolic="YES" id="cM9-a0-Jqd"/>
-                            <constraint firstItem="QxB-Ys-65i" firstAttribute="top" secondItem="Ftd-q7-g3z" secondAttribute="bottom" constant="8" symbolic="YES" id="doB-t8-LoH"/>
                             <constraint firstItem="Ftd-q7-g3z" firstAttribute="top" secondItem="lLw-FE-tWn" secondAttribute="bottom" constant="8" symbolic="YES" id="rjt-DS-a9N"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="QxB-Ys-65i"/>
-                            </mask>
-                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nhz-mc-dBe" userLabel="First Responder" sceneMemberID="firstResponder"/>

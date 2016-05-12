@@ -11,14 +11,15 @@ import UIKit
 public class FDLoginView: UIView {
     
     public enum FDLoginStatus {
-        case None
+        case NoneState
         case Success
         case Failure
         case Reset
+        case Loading
     }
     
     // MARK: - public propertise
-    public var loadingStatus: FDLoginStatus = .None {
+    public var loadingStatus: FDLoginStatus = .NoneState {
         didSet {
             switch loadingStatus {
             case .Reset:
@@ -32,12 +33,12 @@ public class FDLoginView: UIView {
             }
         }
     }
+    public var title: String
     
     // MARK: - private properties
     
     private let tapActionSelector = #selector(tapAction(_:))
     private var tapGesture: UITapGestureRecognizer!
-    private var title: String
     private var backgroundLayer: CAShapeLayer!
     private var textLayer: CATextLayer!
     private var isLoading: Bool = false
@@ -99,10 +100,13 @@ public class FDLoginView: UIView {
             
             animateBackgroundLayer()
             
+            loadingStatus = .Loading
+            
             isLoading = true
         } else {
             
-            animateForReset()
+            loadingStatus = .Reset
+            
 //            animateForSuccess()
 //            animateForFailed()
         }
@@ -195,6 +199,7 @@ public class FDLoginView: UIView {
         if !isLoading {
             return
         }
+        
         isLoading = false
         tapGesture.enabled = true
         

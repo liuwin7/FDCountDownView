@@ -21,22 +21,36 @@ class ShowLoginButtonViewController: UIViewController {
         view.addSubview(loginButtonView)
     }
     
-    @IBAction func failureAction(sender: UIButton) {
-        if loginButtonView.loadingStatus == .Failure || loginButtonView.loadingStatus == .Success {
-            let alertView = UIAlertView(title: "Alert", message: "You need go back and try again", delegate: nil, cancelButtonTitle: "Cancel")
+    @IBAction func buttonAction(sender: UIButton) {
+        
+        switch loginButtonView.loadingStatus {
+        case .Failure:
+            fallthrough
+        case .Success:
+            let alertView = UIAlertView(title: "Alert", message: "You should go back and try again", delegate: self, cancelButtonTitle: "OK")
             alertView.show()
-            return
+        case .Loading:
+            if sender.titleForState(.Normal) == "Simulate Failure" {
+                loginButtonView.loadingStatus = .Failure
+            } else if sender.titleForState(.Normal) == "Simulate Success" {
+                loginButtonView.loadingStatus = .Success
+            }
+        case .NoneState:
+            let alertView = UIAlertView(title: "Alert", message: "You need tap \"\(loginButtonView.title)\" button firstly.", delegate: nil, cancelButtonTitle: "Cancel")
+            alertView.show()
+        default:
+            break
         }
-        loginButtonView.loadingStatus = .Failure
+        
     }
     
-    @IBAction func successAction(sender: UIButton) {
-        if loginButtonView.loadingStatus == .Failure || loginButtonView.loadingStatus == .Success {
-            let alertView = UIAlertView(title: "Alert", message: "You need go back and try again", delegate: nil, cancelButtonTitle: "Cancel")
-            alertView.show()
-            return
+}
+
+
+extension ShowLoginButtonViewController : UIAlertViewDelegate {
+    func alertView(alertView: UIAlertView, clickedButtonAtIndex buttonIndex: Int) {
+        if buttonIndex == 0 {
+            self.navigationController?.popViewControllerAnimated(true)
         }
-        loginButtonView.loadingStatus = .Success
     }
-    
 }
