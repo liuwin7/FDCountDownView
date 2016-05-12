@@ -19,6 +19,8 @@ public class FDLoginView: UIView {
     }
     
     // MARK: - public propertise
+    
+    /// modify this status to control the button status
     public var loadingStatus: FDLoginStatus = .NoneState {
         didSet {
             switch loadingStatus {
@@ -106,9 +108,6 @@ public class FDLoginView: UIView {
         } else {
             
             loadingStatus = .Reset
-            
-//            animateForSuccess()
-//            animateForFailed()
         }
         
     }
